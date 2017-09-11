@@ -1,0 +1,211 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,300,700,600);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700,300);
+
+@page { 
+	size: auto;  
+	margin: 0mm; 
+		
+}
+
+html{
+	overflow-x: hidden !important;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+body{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	font-size: 14px;
+	-webkit-print-color-adjust: exact;
+}
+
+.receta {
+	width: 650px;
+	height: 970px;
+	background-image: url(../images/fondo-receta.png);
+}
+
+/* Typography
+================================================== */
+
+body{
+	font-family: 'Raleway', sans-serif;
+	/*font-weight: 500; */
+	font-size: 14px;
+	line-height: 23px;
+	/*letter-spacing: 1px;*/
+}
+
+h1 {
+	font-size: 36px;
+    line-height: 48px;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	font-size: 12px;
+	font-weight:bold;
+	line-height: 10px;
+	margin-left: 70px;
+}
+
+label{
+	text-align: center;
+	font-size: 12px;
+	font-weight:bold;
+	line-height: 10px;
+}
+
+input, textarea{
+	background-color:transparent;
+	border:none;
+}
+
+.datos {
+	margin-top: 80px;
+	text-align: center;
+}
+
+.input-nombre{
+	width: 100px;
+}
+
+.input-especie, .input-sexo, .input-estatura, .input-peso, .input-edad{
+	width: 90px;
+}
+
+.rx{
+	margin-top: 30px;
+	margin-left: 60px;
+}
+
+
+.firma{
+	text-align:center;
+	line-height: 22px;
+	margin-top: 70px;
+	margin-left: 200px;
+}
+
+.doctor{
+	text-decoration: overline;
+}	
+
+@font-face {
+	font-family: 'ElegantIcons';
+	src:url('fonts/ElegantIcons.eot');
+	src:url('fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'),
+		url('fonts/ElegantIcons.woff') format('woff'),
+		url('fonts/ElegantIcons.ttf') format('truetype'),
+		url('fonts/ElegantIcons.svg#ElegantIcons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Global styles
+================================================== */
+
+html{
+	overflow-x: hidden !important;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+body{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	font-size: 14px;
+	-webkit-print-color-adjust: exact;
+}
+
+.receta {
+	width: 650px;
+	height: 970px;
+	background-image: url(../images/fondo-receta.png);
+}
+
+/* Typography
+================================================== */
+
+body{
+	font-family: 'Raleway', sans-serif;
+	/*font-weight: 500; */
+	font-size: 14px;
+	line-height: 23px;
+	/*letter-spacing: 1px;*/
+}
+
+h1 {
+	font-size: 36px;
+    line-height: 48px;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	font-size: 12px;
+	font-weight:bold;
+	line-height: 10px;
+	margin-left: 70px;
+}
+
+label{
+	text-align: center;
+	font-size: 12px;
+	font-weight:bold;
+	line-height: 10px;
+}
+
+input, textarea{
+	background-color:transparent;
+	border:none;
+}
+
+.datos {
+	margin-top: 80px;
+	text-align: center;
+}
+
+.input-nombre{
+	width: 130px;
+}
+
+.input-especie, .input-sexo, .input-estatura, .input-peso, .input-edad{
+	width: 60px;
+}
+
+.input-fecha{
+	
+	width: 80px;
+}
+
+
+.rx{
+	margin-top: 30px;
+	margin-left: 60px;
+}
+
+
+.firma{
+	text-align:center;
+	line-height: 22px;
+	margin-top: 70px;
+	margin-left: 200px;
+}
+
+.doctor{
+	text-decoration: overline;
+}
+
